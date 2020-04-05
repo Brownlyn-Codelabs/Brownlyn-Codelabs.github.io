@@ -22,6 +22,7 @@ body {
 
 }
 
+/* Color For B- Brand*/
 .navbar-dark .navbar-brand .brown {
     color: #00b0dc;
 
@@ -48,6 +49,27 @@ ul {
     margin-right: 50px;
 }
 
+
+/* Border Under Link */
+
+/*
+.nav-link:active {
+    border-bottom: 3px solid #00b0dc;
+}
+*/
+
+.nav-item active {
+    border-bottom: 3px solid #00b0dc;
+}
+
+.nav-link active {
+    border-bottom: 3px solid #00b0dc;
+}
+
+
+.nav-link:hover {
+    border-bottom: 3px solid #00b0dc;
+}
 
 
 
@@ -114,7 +136,7 @@ h2 {
 }
 
 
-/**Socila Media Icons **/
+/**Social Media Icons **/
 
 .social_med {
     margin-top: 20px;
@@ -143,18 +165,20 @@ h2 {
 
 /*Scroll*/
 
+/* */
+
 .scroll {
     position: relative;
-    margin-top: 40px;
+    margin-top: 75px;
     top: 0%;
-    left: 0%;
+    left: 48%;
     margin-left: 50px;
     transform: translate(-2, -0%);
-    animation: scroll-ani 2s linear infinite;
+    animation: animate 2.5s linear infinite;
 }
 
 .down {
-    position: relative;
+    position: absolute;
     width: 40px;
     height: 70px;
     border-radius: 25px;
@@ -219,7 +243,7 @@ h2 {
 
 }
 
-/***** IMAGE **********/
+/** IMAGE START ***/
 
 .stack {
     position: relative;
@@ -245,7 +269,6 @@ h2 {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, .25);
 }
 
-}
 
 img {
     max-width: 100%;
@@ -270,6 +293,12 @@ img {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, .25);
 }
 
+
+/*** IMAGE END  ***/
+
+
+
+/*** MYSELF START  ***/
 .about_tit {
     font-family: 'Montserrat', sans-serif;
     font-size: 33px;
@@ -285,9 +314,12 @@ img {
     font-size: 16px;
     line-height: 30px;
     color: #333;
-
 }
 
+/*** MYSELF END  ***/
+
+
+/*** BUTTON START ***/
 #about,
 button {
     font-family: 'Roboto', sans-serif;
@@ -297,7 +329,11 @@ button {
     margin-top: 15px;
     line-height: 18px;
     padding: 5px;
+}
 
+#about a {
+    text-decoration: none;
+    color: #fff;
 }
 
 #about .btn-primary {
@@ -320,6 +356,8 @@ button {
     color: #333;
 }
 
+/*** BUTTON END  ***/
+
 
 #about b {
     font-weight: 600;
@@ -328,7 +366,8 @@ button {
 }
 
 
-/******* MY SERVICES SECTION *****/
+
+/*** MY SERVICES SECTION ***/
 
 #services {
     background-color: #f8f8f8;
@@ -881,6 +920,7 @@ button {
 
 
 /*footer*/
+
 #footer {
     margin-top: 50px;
     background: #000;
@@ -916,6 +956,7 @@ button {
     text-align: right;
 }
 
+
 .social-icon ul li {
     display: inline;
     padding: 0;
@@ -944,7 +985,7 @@ button {
 
 /* BACK TO TOP BUTTON*/
 
-.btt {
+#btt {
     background: #00b0dc6b;
     width: 60px;
     position: fixed;
@@ -956,18 +997,18 @@ button {
 
 }
 
-.btt:hover {
+#btt:hover {
     background: #00b0dc;
     box-shadow: 5px 10px 25px #555;
 }
 
-.btt i {
+#btt i {
     color: #fff;
     font-size: 45px;
     padding: 7px;
 }
 
-.btt i:hover {
+#btt i:hover {
     color: #fff;
 
 }
