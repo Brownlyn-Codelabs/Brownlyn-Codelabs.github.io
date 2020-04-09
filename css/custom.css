@@ -14,9 +14,6 @@ body {
 .loader {}
 
 
-@media (min-width: 768px) .container {
-    width: 750px;
-}
 
 @media (min-width: 768px) .navbar-nav > li > a {
     padding-top: 15px;
@@ -59,14 +56,16 @@ body {
     float: right;
 }
 
-.navbar-dark .navbar-nav .nav-link:active {
-    color: #00b0dc;
-}
 
 /* Border Under Link */
 
 .nav-item .active {
     border-bottom: 2px solid #00b0dc;
+}
+
+.nav-item .active li {
+    color: #00b0dc;
+
 }
 
 
