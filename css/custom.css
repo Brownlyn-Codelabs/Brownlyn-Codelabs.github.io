@@ -8,36 +8,36 @@ body {
 
 }
 
+/* PRELOADER*/
+.loader_bg {}
+
+.loader {}
+
+
 @media (min-width: 768px) .container {
     width: 750px;
 }
 
-.my_nav {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+@media (min-width: 768px) .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
 
 /* NavBar*/
 
 .navbar-dark .navbar-brand {
     color: #fff;
     font-weight: bolder;
-    margin-left: 80px;
     font-weight: 800;
     font-family: Roboto;
     font-size: 40px;
     line-height: 30px;
     letter-spacing: 4px;
-    margin-top: 10px;
+    float: left;
+}
 
+.navbar {
+    margin: 0;
 }
 
 /* Color For B- Brand*/
@@ -46,51 +46,31 @@ body {
 
 }
 
-#navbarsExampleDefault,
-ul {
-    margin-right: 40px;
-}
-
 
 .navbar-dark .navbar-nav .nav-link {
     color: white;
-    font-weight: 100;
+    font-weight: 400;
     text-transform: uppercase;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 20px;
     margin-top: 20px;
     padding: 10px;
+    float: right;
 }
 
-.navbar-link {
-    margin-right: 50px;
+.navbar-dark .navbar-nav .nav-link:active {
+    color: #00b0dc;
 }
-
 
 /* Border Under Link */
 
-.nav-item active {
-    border-bottom: 3px solid #00b0dc;
-}
-
-.nav-link active {
-    border-bottom: 3px solid #00b0dc;
-}
-
-
-.nav-link:hover {
-    border-bottom: 3px solid #00b0dc;
+.nav-item .active {
+    border-bottom: 2px solid #00b0dc;
 }
 
 
 
-
-/*Changing of nav color on scroll
-.bg-inverse.scroll{
-    background-color: #00b0dc !important;
-    border-bottom: 1px solid black; 
-} --> */
 
 
 
@@ -140,9 +120,11 @@ img {
 
 /* Advert Typed */
 #home h1 {
-    font-size: 20px;
+    font-size: 18px;
     color: #fafafa;
     font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
 }
 
 
