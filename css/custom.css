@@ -9,9 +9,9 @@ body {
 }
 
 /* PRELOADER*/
-.loader_bg {}
 
-.loader {}
+/* PRELOADER END*/
+
 
 
 
@@ -56,6 +56,10 @@ body {
     float: right;
 }
 
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #00b0dc;
+}
+
 
 /* Border Under Link */
 
@@ -63,7 +67,7 @@ body {
     border-bottom: 2px solid #00b0dc;
 }
 
-.nav-item .active li {
+.nav-item .active li:hover {
     color: #00b0dc;
 
 }
