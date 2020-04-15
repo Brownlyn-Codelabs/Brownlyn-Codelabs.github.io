@@ -800,7 +800,7 @@ li {
     background-image: url(/img/tunnel.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    height: 550px;
+    height: 650px;
     background-size: cover;
     text-decoration-style: none;
     background-attachment: fixed;
@@ -811,17 +811,19 @@ li {
 
 /*Testimonials*/
 
-
-#testimonial .row {
-    margin-right: -15px;
-    margin-left: -15px;
+.card{
+    border-radius: 10px;;
 }
 
-#testimonial .col-md-12 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
+#testimonial.container {
+    box-sizing: content-box;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .testimonial-title {
@@ -842,7 +844,6 @@ li {
     font-family: sans-serif;
     font-weight: 400;
     font-size: 15px;
-    line-height: 27px;
     color: #333333;
     float: left;
     letter-spacing: 0;
@@ -850,17 +851,15 @@ li {
 }
 
 
-
 .t-det {
     margin-top: 5px;
     float: left;
 }
 
-.t-det h4 {
+h4 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: 18px;
-
     color: #333333;
     font-weight: 600;
     margin: 10px 0 0;
@@ -873,12 +872,6 @@ li {
     color: #333333;
     font-weight: 100;
     margin: 10px 0 0;
-}
-
-
-
-.carousel {
-    border-bottom: none;
 }
 
 .card-body i {
@@ -898,10 +891,6 @@ li {
     content: "\f10d";
 }
 
-
-
-
-
 .t-det {
     float: left;
     text-align: center;
@@ -914,6 +903,164 @@ li {
 #testimonial span {
     color: #00b0dc;
 }
+
+
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.slick-track:before,
+.slick-track:after {
+    display: table;
+    content: '';
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.slick-btn.slick-hidden {
+    display: none;
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 40%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+    opacity: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: "FontAwesome";
+    font-size: 40px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+    left: -40px;
+}
+
+.slick-prev:before {
+    content: "";
+}
+
+.slick-next {
+    right: -40px;
+}
+
+.slick-next:before {
+    content: "";
+}
+
+
+
 
 
 /*Contact*/
@@ -1039,31 +1186,39 @@ li {
 
 
 /* BACK TO TOP BUTTON*/
-
 #btt {
-    background: #00b0dc6b;
-    width: 60px;
-    position: fixed;
-    right: 0px;
-    bottom: 61px;
+    background: #00b0dc95;
     z-index: 9998;
     border: 2px solid white;
+    display: inline;
     border-radius: 10px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 33px;
+    height: 33px;
 
+}
+
+#btt .text-center {
+    text-align: center !important;
 }
 
 #btt:hover {
     background: #00b0dc;
     box-shadow: 5px 10px 25px #555;
+    color: #fff;
 }
 
 #btt i {
     color: #fff;
-    font-size: 45px;
+    font-size: 15px;
     padding: 7px;
 }
+
 
 #btt i:hover {
     color: #fff;
 
 }
+
