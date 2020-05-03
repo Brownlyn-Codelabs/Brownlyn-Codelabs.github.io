@@ -137,7 +137,7 @@
     <!-- **** ABOUT SECTION ****--->
 
     <section id="about">
-        <div class="container mt-2">
+        <div class="container mt-3">
             <div class="row justify-content">
                 <!-- ***My about Image ***
                        Will include my photograph-->
@@ -471,7 +471,7 @@
 
                 <!-- Grid column -->
                 <div class="mb-3 pics animation all 2">
-                    <img class="img-fluid" src="/img/work-2.jpg" alt="Card image cap">
+                    <img class="img-fluid" src="/img/rotate.png" alt="Card image cap">
                 </div>
                 <!-- Grid column -->
 
@@ -501,7 +501,7 @@
 
     <!-- **** MY EXPERIENCE SECTION ****** -->
     <section id="experience">
-        <div class="container mb-3">
+        <div class="container mb-4 mt-4">
             <div class="experience-title">
                 MY <span>EXPERIENCE</span>
             </div>
@@ -558,7 +558,6 @@
 
             </div>
         </div>
-        </div>
     </section>
     <!-- **** MY EXPERIENCE SECTION ENDS****** -->
 
@@ -566,8 +565,8 @@
     <!--Parallax for Testimonial-->
     <div id="parallax">
 
-        
-    <!--**** MY TESTIMONIAL SECTION *****-->
+
+        <!--**** MY TESTIMONIAL SECTION *****-->
         <section id="testimonial">
 
             <div class="container">
@@ -619,7 +618,7 @@
                             </div>
                         </div>
 
-                       <div>
+                        <div>
                             <div class="card m-3">
                                 <div class="card-body p-3">
                                     <i class="fa fa-quote-left"></i>
@@ -663,8 +662,10 @@
 
                     </div>
                 </div>
+            </div>
         </section>
     </div>
+
     <!--**** MY TESTIMONIAL SECTION ENDS *****-->
 
 
@@ -822,11 +823,11 @@
     <!--Extra Dependencies js-->
 
 
-     <!-- Testimonial -->
-     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-     <script src='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js'></script>
-     <script src="/js/function.js"> </script>
-     <!-- Testimonial ends -->
+    <!-- Testimonial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js'></script>
+    <script src="/js/function.js"> </script>
+    <!-- Testimonial ends -->
 
 
     <!--Dependency for typed js-->
@@ -839,7 +840,6 @@
             backSpeed: 20,
             loop: true
         });
-
     </script>
 
 
@@ -848,8 +848,7 @@
         $('body').scrollspy({
             target: '#navbarSupportedContent',
             offset: 38
-        })
-
+        });
     </script>
 
 
@@ -857,7 +856,6 @@
     <script src="js/smooth-scroll.js"></script>
     <script>
         var scroll = new SmoothScroll('a[href*="#"]');
-
     </script>
 
 
@@ -871,10 +869,9 @@
                 if (scroll > 100) {
                     $("nav").css("background", "#f8f8f8"); /*Changing nav-bg color to ash color*/
                     $(".nav-link").css("color", "#000"); /*Changing nav-links color to black*/
-                    $(".nav-link").css("", "#="); /**/
                     $("nav").css("height", "80px"); /*Changing nav height to 100px*/
-                    $("nav").css("color", "#000"); /*Changing nav color to 100px*/
-                    $("nav").css("transition", "700ms ease"); /*Changing nav-bg color to ash like color*/
+                    $("nav").css("color", "#000"); /*Changing nav color to black*/
+                    $("nav").css("transition", "700ms ease"); /*Transition for nav color*/
                     $("#daniel").css("color", "#000"); /*Changing daniel color to black on scroll*/
                     $("nav").css("box-shadow", "0 15px 13px rgba(000, 000, 000,0.13"); /*giving a shadow*/
 
@@ -887,7 +884,6 @@
                 }
             })
         })
-
     </script>
 
 
@@ -910,12 +906,11 @@
                 }, 1000);
             });
         });
-
     </script>
     <!-- ANIMATION FOR BACK TO TOP BUTTON END-->
 
 
- 
+
 
     <!-- **** GALLERY WITH IMAGE FILTERING START**--->
 
@@ -932,7 +927,6 @@
                 }, 300);
             });
         });
-
     </script>
 
     <!-- **** GALLERY WITH IMAGE FILTERING ENDS **--->
@@ -948,6 +942,4 @@
 
 
 
-</body>
-
-</html>
+</body></html>
