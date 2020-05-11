@@ -666,31 +666,30 @@ li {
     padding-left: 15px;
 }
 
-/******* MY PORTFOLIO SECTION *****/
+
+
+
+/******* MY PORTFOLIO SECTION ******/
 
 #portfolio {
     padding-top: 60px;
 }
 
 
-.gallery {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
-    -webkit-column-width: 33%;
-    -moz-column-width: 33%;
-    column-width: 33%;
-}
 
-.gallery .pics {
+.gallery .pics{
+    
     -webkit-transition: all 350ms ease;
     transition: all 350ms ease;
+
 }
 
-.gallery .animation {
+.gallery .animation{
+    
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
+
 }
 
 @media (max-width: 450px) {
@@ -708,6 +707,74 @@ li {
     .btn.filter {
         padding-left: 1.1rem;
         padding-right: 1.1rem;
+    }
+}
+
+.gallery-block.compact-gallery .item {
+    overflow: hidden;
+    margin-bottom: 0;
+    background: black;
+    opacity: 1;
+}
+
+.lightbox img {
+    border-style: none;
+    vertical-align: middle;
+}
+
+.gallery-block.compact-gallery .item .image {
+    transition: 0.8s ease;
+}
+
+.gallery-block.compact-gallery .item .info {
+    position: relative;
+    display: inline-block;
+}
+
+.gallery-block.compact-gallery .item .description {
+    display: grid;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    padding: 10px;
+    font-size: 17px;
+    line-height: 18px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    opacity: 1;
+    color: #fff;
+    transition: 0.8s ease;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.39));
+}
+
+.gallery-block.compact-gallery .item .description .description-heading {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.gallery-block.compact-gallery .item .description .description-body {
+    font-size: 0.8em;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+@media (min-width: 576px) {
+
+    .gallery-block.compact-gallery .item .description {
+        opacity: 0;
+    }
+
+    .gallery-block.compact-gallery .item a:hover .description {
+        opacity: 1;
+    }
+
+    .gallery-block .zoom-on-hover:hover .image {
+        transform: scale(1.3);
+        opacity: 0.7;
     }
 }
 
@@ -810,8 +877,9 @@ li {
 
 /*Testimonials*/
 
-.card{
-    border-radius: 10px;;
+.card {
+    border-radius: 10px;
+    ;
 }
 
 #testimonial.container {
@@ -1220,4 +1288,3 @@ h4 {
     color: #fff;
 
 }
-
