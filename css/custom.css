@@ -677,15 +677,15 @@ li {
 
 
 
-.gallery .pics{
-    
+.gallery .pics {
+
     -webkit-transition: all 350ms ease;
     transition: all 350ms ease;
 
 }
 
-.gallery .animation{
-    
+.gallery .animation {
+
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
@@ -744,7 +744,7 @@ li {
     padding-top: 15px;
     padding-bottom: 15px;
     opacity: 1;
-    color: #fff;
+    color: #00B0DC;
     transition: 0.8s ease;
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
