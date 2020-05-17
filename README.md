@@ -1,4 +1,2 @@
 # BrownlynCodelabs.github.io
-# ______________________________
-#
-#My Simple Portfolio
+# My Simple Portfolio
