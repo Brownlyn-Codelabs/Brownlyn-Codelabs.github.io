@@ -543,32 +543,33 @@ li {
 
 .html {
     width: 90%;
-    animation: html 2s;
+    animation: html 10s;
+    animation-duration: 100;
 }
 
 .javascript {
     width: 60%;
-    animation: javascript 2s;
+    animation: javascript 10s;
 }
 
 .css3 {
     width: 75%;
-    animation: css3 2s;
+    animation: css3 10s;
 }
 
 .kotlin {
     width: 50%;
-    animation: kotlin 2s;
+    animation: kotlin 10s;
 }
 
 .jquery {
     width: 35%;
-    animation: jquery 2s;
+    animation: jquery 10s;
 }
 
 .wordpress {
     width: 70%;
-    animation: wordpress 2s;
+    animation: wordpress 10s;
 }
 
 
