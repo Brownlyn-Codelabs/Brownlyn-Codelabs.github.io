@@ -23,15 +23,19 @@ body {
 /* NavBar*/
 
 .navbar-dark .navbar-brand {
-    color: #fff;
-    font-weight: bolder;
-    font-weight: 800;
-    font-family: Roboto;
-    font-size: 40px;
-    line-height: 30px;
-    letter-spacing: 4px;
     float: left;
+   
 }
+
+.navbar-dark .navbar-brand img {
+   border: none;
+    width: 130px;
+    height: 130px;
+    vertical-align: inherit;
+    margin-top: 20px;
+   
+}
+
 
 .navbar {
     margin: 0;
@@ -1184,22 +1188,22 @@ h4 {
 
 }
 
-#footer .logo a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bolder;
-    font-weight: 800;
-    font-family: Roboto;
-    font-size: 40px;
-    line-height: 30px;
-    letter-spacing: 4px;
-    margin-top: 10px;
+#footer .logo{
+    width: 100px;
+    height: 100px;
+    float: left;
+    box-sizing: none;
 }
 
 #footer p {
     font-size: 16px;
 
 
+}
+
+.cpt{
+    margin-top: 20px;
+    letter-spacing: 0.3px;
 }
 
 .cpt span {
@@ -1209,7 +1213,8 @@ h4 {
 }
 
 .social-icon {
-    text-align: right;
+    float: right;
+      margin-top: 20px;
 }
 
 
@@ -1223,9 +1228,10 @@ h4 {
 .social-icon ul li a {
     text-decoration: none;
     display: inline-block;
-    font-size: 30px;
+    font-size: 28px;
     height: 34px;
     line-height: 34px;
+    letter-spacing: 10px;
     color: #fff;
 }
 
