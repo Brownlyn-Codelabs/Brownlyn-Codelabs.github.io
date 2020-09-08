@@ -1198,7 +1198,7 @@ h4 {
     box-sizing: none;
 }
 
-#footer .logo img{
+#footer .logo, img{
     border: none;
 }
 
