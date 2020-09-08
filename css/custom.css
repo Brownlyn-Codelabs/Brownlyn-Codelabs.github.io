@@ -24,16 +24,16 @@ body {
 
 .navbar-dark .navbar-brand {
     float: left;
-   
+
 }
 
 .navbar-dark .navbar-brand img {
-   border: none;
+    border: none;
     width: 130px;
     height: 130px;
     vertical-align: inherit;
     margin-top: 20px;
-   
+
 }
 
 
@@ -75,9 +75,9 @@ body {
 
 }
 
-.navbar-brand{
+.navbar-brand {
     border: none;
-    
+
 }
 
 
@@ -460,8 +460,7 @@ button {
 /***** PARALLAX SECTION FOR MY SKILLS SECTION *****/
 
 .parallax {
-    background-image: url(/img/bd_parallax.jpg);
-    opacity: ;
+    background-color: #000;
     background-position: center;
     background-repeat: no-repeat;
     height: 650px;
@@ -1191,7 +1190,7 @@ h4 {
 
 }
 
-#footer .logo{
+#footer .logo {
     width: 100px;
     height: 100px;
     float: left;
@@ -1199,7 +1198,8 @@ h4 {
     border: none;
 }
 
-#footer .logo, img{
+#footer .logo,
+img {
     border-style: none;
 }
 
@@ -1209,7 +1209,7 @@ h4 {
 
 }
 
-.cpt{
+.cpt {
     margin-top: 20px;
     letter-spacing: 0.3px;
 }
@@ -1222,7 +1222,7 @@ h4 {
 
 .social-icon {
     float: right;
-      margin-top: 20px;
+    margin-top: 20px;
 }
 
 
