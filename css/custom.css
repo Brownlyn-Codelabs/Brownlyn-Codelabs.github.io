@@ -548,18 +548,18 @@ li {
 
 
 .html {
-    width: 90%;
+    width: 95%;
     animation: html 10s;
     animation-duration: 100;
 }
 
 .javascript {
-    width: 60%;
+    width: 70%;
     animation: javascript 10s;
 }
 
 .css3 {
-    width: 75%;
+    width: 90%;
     animation: css3 10s;
 }
 
@@ -569,7 +569,7 @@ li {
 }
 
 .jquery {
-    width: 35%;
+    width: 40%;
     animation: jquery 10s;
 }
 
