@@ -573,9 +573,9 @@ li {
     animation: jquery 10s;
 }
 
-.wordpress {
-    width: 70%;
-    animation: wordpress 10s;
+.php {
+    width: 55%;
+    animation: php 10s;
 }
 
 
@@ -608,7 +608,7 @@ li {
     0% {
         width: 0%;
     }
-
+        
     100% {
         width: 80%;
 
@@ -640,13 +640,13 @@ li {
 }
 
 
-@keyframes wordpress {
+@keyframes php {
     0% {
         width: 0%;
     }
 
     100% {
-        width: 70%;
+        width: 55%;
 
     }
 
