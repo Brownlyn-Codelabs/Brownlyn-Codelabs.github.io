@@ -5,26 +5,24 @@ body {
     font-size: 15px;
     line-height: 1.7;
     color: #333333;
-
 }
+
 
 /* PRELOADER*/
 
+
 /* PRELOADER END*/
 
-
-
-
-@media (min-width: 768px) .navbar-nav > li > a {
+@media (min-width: 768px) .navbar-nav>li>a {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 
 /* NavBar*/
 
 .navbar-dark .navbar-brand {
     float: left;
-
 }
 
 .navbar-dark .navbar-brand img {
@@ -33,19 +31,18 @@ body {
     height: 130px;
     vertical-align: inherit;
     margin-top: 20px;
-
 }
-
 
 .navbar {
     margin: 0;
 }
 
+
 /* Color For B- Brand*/
+
 .navbar-dark .navbar-brand .brown {
     color: #00b0dc;
 }
-
 
 .navbar-dark .navbar-nav .nav-link {
     color: white;
@@ -72,18 +69,15 @@ body {
 
 .nav-item .active li:hover {
     color: #00b0dc;
-
 }
 
 .navbar-brand {
     border: none;
-
 }
 
 
-
-
 /*HOME*/
+
 
 /**
 ******* Home backround Image ***
@@ -102,7 +96,9 @@ Always note various features for background images*/
     margin-bottom: 50px;
 }
 
+
 /* My Profile Image*/
+
 .mt-5,
 .my-5 {
     margin-top: 24rem !important;
@@ -117,7 +113,9 @@ Always note various features for background images*/
     height: auto;
 }
 
+
 /*Profile Name*/
+
 #home h3 {
     font-size: 49px;
     letter-spacing: 0.5px;
@@ -127,7 +125,9 @@ Always note various features for background images*/
     color: white;
 }
 
+
 /* Advert Typed */
+
 #home h1 {
     font-size: 18px;
     color: #fafafa;
@@ -161,10 +161,8 @@ Always note various features for background images*/
 }
 
 
-
-
-
 /*Scroll*/
+
 
 /* */
 
@@ -188,7 +186,6 @@ Always note various features for background images*/
     overflow: hidden;
     margin-bottom: 20px;
     margin-left: 484px;
-
 }
 
 .down:before {
@@ -215,7 +212,6 @@ Always note various features for background images*/
     left: 50%;
     transform: translate(-50%, 0);
     border-radius: 3px;
-
 }
 
 @keyframes animate {
@@ -223,12 +219,10 @@ Always note various features for background images*/
         transform: translate(-50%, 15px);
         opacity: 1;
     }
-
     80% {
         transform: translate(-50%, 35px);
         opacity: 1;
     }
-
     100% {
         transform: translate(-50%, 40px);
         opacity: 0;
@@ -236,13 +230,12 @@ Always note various features for background images*/
 }
 
 
-
 /******** ABOUT SECTION ************/
 
 #about {
     margin: 20px;
-
 }
+
 
 /** IMAGE START ***/
 
@@ -252,7 +245,6 @@ Always note various features for background images*/
     margin-bottom: 20px;
     display: inline-block;
 }
-
 
 * {
     box-sizing: border-box;
@@ -269,7 +261,6 @@ Always note various features for background images*/
     -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .25);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, .25);
 }
-
 
 img {
     max-width: 100%;
@@ -298,15 +289,14 @@ img {
 /*** IMAGE END  ***/
 
 
-
 /*** MYSELF START  ***/
+
 .about_tit {
     font-family: 'Montserrat', sans-serif;
     font-size: 33px;
     font-weight: 800;
     line-height: 33px;
     color: #333333;
-
 }
 
 .about-desc {
@@ -323,10 +313,12 @@ img {
     color: gray;
 }
 
+
 /*** MYSELF END  ***/
 
 
 /*** BUTTON START ***/
+
 #about,
 button {
     font-family: 'Roboto', sans-serif;
@@ -354,7 +346,6 @@ button {
     border-color: #00B0DC;
 }
 
-
 #about .btn {
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
@@ -369,11 +360,8 @@ button {
     color: #333;
 }
 
+
 /*** BUTTON END  ***/
-
-
-
-
 
 
 /*** MY SERVICES SECTION ***/
@@ -435,8 +423,6 @@ button {
     transition: 1s;
 }
 
-
-
 .services-description p:nth-child(1) {
     text-align: center;
     color: #333333;
@@ -456,7 +442,6 @@ button {
 }
 
 
-
 /***** PARALLAX SECTION FOR MY SKILLS SECTION *****/
 
 .parallax {
@@ -467,9 +452,7 @@ button {
     background-size: cover;
     text-decoration-style: none;
     background-attachment: fixed;
-
 }
-
 
 
 /***** SKILLS SECTION *****/
@@ -478,7 +461,6 @@ button {
     font-family: 'Montserrat', sans-serif;
     list-style: none;
 }
-
 
 .skills-title {
     padding-top: 70px;
@@ -508,7 +490,6 @@ li {
     margin-bottom: 10px;
 }
 
-
 #skills h6 {
     font-weight: 900;
     font-family: 'Montserrat', sans-serif;
@@ -516,7 +497,6 @@ li {
     vertical-align: middle;
     font-size: 20px;
     color: #fff;
-
 }
 
 #skills h6:nth-last-child(2) {
@@ -543,9 +523,7 @@ li {
     border-radius: 8px;
     float: left;
     background: #00B0DC;
-
 }
-
 
 .html {
     width: 95%;
@@ -579,17 +557,14 @@ li {
 }
 
 
-
 /**** KEYFRAMES ANIMATION FOR SKILLS SECTION   ****/
 
 @keyframes html {
     0% {
         width: 0%;
     }
-
     100% {
         width: 90%;
-
     }
 }
 
@@ -597,10 +572,8 @@ li {
     0% {
         width: 0%;
     }
-
     100% {
         width: 60%;
-
     }
 }
 
@@ -608,48 +581,36 @@ li {
     0% {
         width: 0%;
     }
-        
     100% {
         width: 80%;
-
     }
 }
-
 
 @keyframes kotlin {
     0% {
         width: 0%;
     }
-
     100% {
         width: 50%;
-
     }
 }
-
 
 @keyframes jquery {
     0% {
         width: 0%;
     }
-
     100% {
         width: 35%;
-
     }
 }
-
 
 @keyframes php {
     0% {
         width: 0%;
     }
-
     100% {
         width: 55%;
-
     }
-
 }
 
 #skills container {
@@ -674,21 +635,15 @@ li {
 }
 
 
-
-
 /******* MY PORTFOLIO SECTION ******/
 
 #portfolio {
     padding-top: 60px;
 }
 
-
-
 .gallery .pics {
-
     -webkit-transition: all 350ms ease;
     transition: all 350ms ease;
-
 }
 
 @media (max-width: 450px) {
@@ -701,7 +656,6 @@ li {
         column-width: 100%;
     }
 }
-
 
 .gallery-block.compact-gallery .item {
     overflow: hidden;
@@ -756,22 +710,17 @@ li {
 }
 
 @media (min-width: 576px) {
-
     .gallery-block.compact-gallery .item .description {
         opacity: 0;
     }
-
     .gallery-block.compact-gallery .item a:hover .description {
         opacity: 1;
     }
-
     .gallery-block .zoom-on-hover:hover .image {
         transform: scale(1.3);
         opacity: 0.7;
     }
 }
-
-
 
 
 /*COUNTER STARTS*/
@@ -781,6 +730,7 @@ li {
 
 
 /******* MY EXPERIENCE SECTION *****/
+
 #experience {
     padding-top: 70px;
     background-color: #fff;
@@ -800,7 +750,6 @@ li {
     color: #00B0DC;
 }
 
-
 .experience-selection {
     padding: 10px;
     margin-bottom: 40px;
@@ -810,7 +759,6 @@ li {
     box-shadow: -5px -2px 5px 2px rgba(1, 113, 228, 0.1);
     text-align: center;
 }
-
 
 .experience-description p:nth-child(1) {
     text-align: left;
@@ -849,10 +797,6 @@ li {
 }
 
 
-
-
-
-
 /*Parallax for Testimonial*/
 
 #parallax {
@@ -863,9 +807,7 @@ li {
     background-size: cover;
     text-decoration-style: none;
     background-attachment: fixed;
-
 }
-
 
 
 /*Testimonials*/
@@ -899,7 +841,6 @@ li {
     color: #00B0DC;
 }
 
-
 .t-qot {
     font-family: sans-serif;
     font-weight: 400;
@@ -909,7 +850,6 @@ li {
     letter-spacing: 0;
     line-height: 1.8;
 }
-
 
 .t-det {
     margin-top: 5px;
@@ -963,8 +903,6 @@ h4 {
 #testimonial span {
     color: #00b0dc;
 }
-
-
 
 .slick-slider {
     position: relative;
@@ -1120,10 +1058,8 @@ h4 {
 }
 
 
-
-
-
 /*Contact*/
+
 .contact-title {
     margin-top: 70px;
     margin-bottom: 50px;
@@ -1139,8 +1075,6 @@ h4 {
     color: #00B0DC;
 }
 
-
-
 .right-contact-text {
     margin-left: 60px;
 }
@@ -1150,7 +1084,6 @@ h4 {
     font-size: 25px;
     margin-bottom: 10px;
 }
-
 
 .right-contact-text h2 {
     margin-top: 2px;
@@ -1180,14 +1113,12 @@ h4 {
 }
 
 
-
 /*footer*/
 
 #footer {
     margin-top: 50px;
     background: #000;
     padding: 50px;
-
 }
 
 #footer .logo {
@@ -1205,8 +1136,6 @@ img {
 
 #footer p {
     font-size: 16px;
-
-
 }
 
 .cpt {
@@ -1217,7 +1146,6 @@ img {
 .cpt span {
     color: #00B0DC;
     letter-spacing: 0.4px;
-
 }
 
 .social-icon {
@@ -1225,13 +1153,11 @@ img {
     margin-top: 20px;
 }
 
-
 .social-icon ul li {
     display: inline;
     padding: 0;
     margin: 0 5px;
 }
-
 
 .social-icon ul li a {
     text-decoration: none;
@@ -1245,15 +1171,14 @@ img {
 
 .social-icon ul li a:hover {
     color: #00B0DC;
-
 }
+
 
 /*FOOTER ENDS*/
 
 
-
-
 /* BACK TO TOP BUTTON*/
+
 #btt {
     background: #00b0dc95;
     z-index: 9998;
@@ -1265,7 +1190,6 @@ img {
     right: 26px;
     width: 29px;
     height: 29px;
-
 }
 
 #btt .text-center {
@@ -1284,8 +1208,6 @@ img {
     padding: 7px;
 }
 
-
 #btt i:hover {
     color: #fff;
-
 }
