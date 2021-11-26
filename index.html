@@ -68,12 +68,9 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 
 </head>
-
-<body data-spy="scroll" data-target="#navbarsExampleDefault">
-
-
-    <!-- PRELOADER STARTS -->
-
+  <!--Preloader Starts-->
+<body onload="myFunction()" data-spy="scroll" data-target="#navbarsExampleDefault">
+      <div id="loading"></div> 
     <!-- PRELOADER ENDS -->
 
 
@@ -921,15 +918,7 @@
 
 
 
-    <!-- PRELOADER STARTS -->
-
-
-    <!-- PRELOADER ENDS -->
-
-
-
-
-
+   
 
 
     <!-- Bootstrap core JavaScript
@@ -1066,13 +1055,25 @@
 
     <!-- ••• Animate On Scrool Library Ends ••••-->
 
+ <!-- PRELOADER STARTS -->
+
+ <script >
+    // $(document).ready(function(){
+        // 	$('div#loading').removeAttr('id');
+    // });
+    var preloader = document.getElementById("loading");
+    // window.addEventListener('load', function(){
+    // 	preloader.style.display = 'none';
+    // 	})
+
+    function myFunction(){
+        preloader.style.display = 'none';
+        preloader.delay(5000).fadeout('slow');
+    };
+</script>
 
 
-    <!-- **** PRELOADER STARTS **--->
-
-
-
-    <!-- **** PRELOADER ENDS **--->
+<!-- PRELOADER ENDS -->
 
 
 

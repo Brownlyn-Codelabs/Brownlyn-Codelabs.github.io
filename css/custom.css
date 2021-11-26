@@ -7,8 +7,23 @@ body {
     color: #333333;
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
 
 /* PRELOADER*/
+#loading{
+    position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff
+    url(https://i.gifer.com/origin/7b/7b720babe16e3ab0ad433822a7e60666_w200.webp)
+    no-repeat center center;		
+	z-index: 99999;
+}
 
 
 /* PRELOADER END*/

@@ -14,7 +14,7 @@ if( isset($_POST['submit'])){
     $to = "D.brown.db649@gmail.com";
 
     $headers = "From: $email_from \r\n";
-    $headers .= "Reply-TO : $email \r\n";
+    $headers = "Reply-TO : $email \r\n";
 
     mail($to,$email_subject,$email_body,$headers);
 
