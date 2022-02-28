@@ -28,10 +28,12 @@ body {
 
 /* PRELOADER END*/
 
-@media (min-width: 768px) .navbar-nav>li>a {
+@media (min-width: 768px){.navbar-nav>li>a {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+}
+
 
 
 /* NavBar*/
@@ -1203,8 +1205,9 @@ img {
     position: fixed;
     bottom: 26px;
     right: 26px;
-    width: 50px;
+    width: 29px;
     height: 29px;
+    pa
 }
 
 #btt .text-center {
