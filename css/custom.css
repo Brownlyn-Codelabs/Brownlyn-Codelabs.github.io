@@ -542,24 +542,24 @@ li {
     background: #00B0DC;
 }
 
-.html {
+.flutter {
     width: 95%;
-    animation: html 10s;
+    animation: flutter 10s;
     animation-duration: 100;
 }
 
 .javascript {
-    width: 70%;
+    width: 75%;
     animation: javascript 10s;
 }
 
-.css3 {
+.bootstrap {
     width: 90%;
-    animation: css3 10s;
+    animation: bootstrap 10s;
 }
 
 .kotlin {
-    width: 50%;
+    width: 35%;
     animation: kotlin 10s;
 }
 
@@ -569,7 +569,7 @@ li {
 }
 
 .php {
-    width: 55%;
+    width: 70%;
     animation: php 10s;
 }
 
@@ -590,7 +590,7 @@ li {
         width: 0%;
     }
     100% {
-        width: 60%;
+        width: 75%;
     }
 }
 
@@ -599,7 +599,7 @@ li {
         width: 0%;
     }
     100% {
-        width: 80%;
+        width: 90%;
     }
 }
 
