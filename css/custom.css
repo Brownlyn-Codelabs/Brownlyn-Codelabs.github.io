@@ -543,7 +543,7 @@ li {
 }
 
 .flutter {
-    width: 95%;
+    width: 35%;
     animation: flutter 10s;
     animation-duration: 100;
 }
@@ -559,12 +559,12 @@ li {
 }
 
 .kotlin {
-    width: 35%;
+    width: 50%;
     animation: kotlin 10s;
 }
 
 .jquery {
-    width: 40%;
+    width: 60%;
     animation: jquery 10s;
 }
 
@@ -617,7 +617,7 @@ li {
         width: 0%;
     }
     100% {
-        width: 50%;
+        width: 60%;
     }
 }
 
