@@ -576,12 +576,12 @@ li {
 
 /**** KEYFRAMES ANIMATION FOR SKILLS SECTION   ****/
 
-@keyframes html {
+@keyframes flutter {
     0% {
         width: 0%;
     }
     100% {
-        width: 90%;
+        width: 35%;
     }
 }
 
@@ -594,7 +594,7 @@ li {
     }
 }
 
-@keyframes css3 {
+@keyframes bootstrap {
     0% {
         width: 0%;
     }
@@ -617,7 +617,7 @@ li {
         width: 0%;
     }
     100% {
-        width: 35%;
+        width: 50%;
     }
 }
 
@@ -626,7 +626,7 @@ li {
         width: 0%;
     }
     100% {
-        width: 55%;
+        width: 70%;
     }
 }
 
