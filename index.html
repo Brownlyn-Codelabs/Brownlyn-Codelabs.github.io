@@ -1,0 +1,1083 @@
+<html lang="en">
+
+    <!-- Start of Async Drift Code -->
+<script>
+    "use strict";
+    
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('2v2etvsxgfst');
+    </script>
+    <!-- End of Async Drift Code -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="This Platform is basically about Daniel Brown. Full-Stack developer, Skilled in Andriod & Web Developement. " />
+    <meta name="keywords" content="Flutter, Kotlin, Java, Andriod developer, web developer, UI/UX designer,full-stack developer Ghana, Software, App Developer" />
+    <meta name="author" content="Daniel Brown">
+    <link rel="icon" href="/favicon/favicon.png">
+    <title>DanielBrown</title>
+
+
+    <!--Template based on URL below-->
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Compact Gallery -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css" />
+
+    <!-- Custom Css-->
+    <link href="/css/custom.css" rel="stylesheet" type="text/css">
+
+    <!-- Fany Aweasome Css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Roboto Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+
+    <!--*** ROBOTO GOOGEL FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!--*** ANIMATE ON SCROLL LIBRARY **** -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+</head>
+  <!--Preloader Starts-->
+<body onload="myFunction()" data-spy="scroll" data-target="#navbarsExampleDefault">
+      <div id="loading"></div> 
+    <!-- PRELOADER ENDS -->
+
+
+
+
+
+    <!-- ****  NAVBAR  ***** -->
+    <!-- WORK ON NAV ( CONTAINER SHOULD BE OF THE PAGE) -->
+
+    <div class="row nav">
+        <div class="col-md-12">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#home"> <img src="img/logo_02.png"> </a>
+
+                    <!--   <span id="daniel">{D.</span><span class="brown">B}</span>-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#experience">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#testimonial">Testimonial</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </div>
+    <!-- ****  NAVBAR ENDS  ***** -->
+
+
+    <!--**** MY DASHBOARD *****-->
+
+    <section id="home" class="view">
+
+        <!--animate onscroll-->
+        <div data-aos="fade-up">
+
+            <!-- **My Profile Image ** -->
+            <div class="container text-center ">
+                <img src="/img/profile.jpeg" class="rounded-circle mt-5 text-center" alt="Daniel Brown" width="160" height="160">
+                <!--** MyProfileName **-->
+                <h3 class="mt-3">I'm Daniel</h3>
+
+                <!--Advert Js typed-->
+                <div class="typed">
+                    <h1><span class="type"></span></h1>
+                </div>
+
+                <!--*** SOCIAL MEDIA ICONS***-->
+
+                <div class="social_med">
+                    <!--facebook-->
+                    <a href="https://www.facebook.com/profile.php?id=100002940318705/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <!--Twiiter-->
+                    <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    <!--Instagram-->
+                    <a href="https://www.instagram.com/daniel_brown2977/" target="_blank"><i class="fab fa-linkedin-square"></i></a>
+                    <!--Github-->
+                    <a href="https://github.com/Brownlyn-Codelabs" target="_blank"><i class="fab fa-github-square"></i></a>
+                    <!--Instagram-->
+                    <a href="https://www.instagram.com/daniel_brown2977/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+
+
+                <!-- **** SCROLL TO CONTINUE TO MAIN PAGE ANIMATION ****-->
+                <a class="nav-brand" href="#about">
+                    <div class="scroll" href="#">
+                        <div class="down" href="#about"></div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--**** MY DASHBOARD ENDS *****-->
+
+
+    <!-- **** ABOUT SECTION ****--->
+
+    <section id="about">
+        <div class="container mt-3">
+            <div class="row justify-content">
+
+                <!-- ***My about Image Will include my photograph with animate onscroll-->
+
+                <div data-aos="fade-right" data-aos-delay="20" data-aos-offset="200" data-aos-duration="1000" data-aos-anchor-placement="top-bottom" data-aos-easing="ease" class="about_img col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="stack">
+                        <img src="/img/me.jpg" alt="About Me">
+                    </div>
+
+                </div>
+
+                <!-- ***My about Description Will have a brief description about me-->
+                <div data-aos="fade-left" data-aos-delay="30" data-aos-offset="400" data-aos-duration="1000" data-aos-easing="ease" class="col-xs-12 col-sm-12 col-md-7 col-md-offset-1 p-5 ml-5">
+
+                    <p class="about_tit">FULL STACK DEVELOPER</p>
+                    <p class="about-desc"> I am <strong>Daniel Brown</strong>. I am a simple, Creative, Enthusiastic and fun-loving person. I always want to develop something of my own style to be helpful for others. <br /> <br> I have experience in HTML5, CSS, PHP, JavaScript,
+                        JQuery, Kotlin, Flutter. I have already completed some projects of mine which i want to share with you.</p>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6">
+                            <p><b>Name</b> : Daniel Brown</p>
+                        </div>
+                        <div class="col-sm-6 col-md-6">
+                            <p><b>Phone</b> : +233 552 366 834.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-6">
+                            <p><b>Age</b> : 22</p>
+                        </div>
+                        <div class="col-sm-6 col-md-6">
+                            <p><b>Address</b> : Legon, Accra</p>
+                        </div>
+                        <div class="col-sm-6 col-md-6">
+                            <p><b>Email</b> : BrownlynCodelabs@gmail.com</p>
+                        </div>
+                        <div class="col-sm-6 col-md-6">
+                            <p><b>Hobby</b> : Coding , Swimming</p>
+                        </div>
+
+                        <!--*** BUTTONS ***-->
+                        <div class="col-sm-12">
+                            <button type="button" class="btn btn-primary my_skill">
+                                <a href="#skills">MY SKILLS</a></button>
+
+                            <button style="border: 1px solid #00b0dc" type="button" class="btn btn-primary-outline ml-3 download">
+                                <a href="/img/demo-cv.png" download="My Cv">DOWNLOAD CV</a></button>
+                        </div>
+                    </div>
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- **** ABOUT SECTION ENDS ****--->
+
+
+    <!-- **** MY SERVICES SECTION ****** -->
+
+    <section id="services">
+        <div class="container">
+            <div data-aos="zoom-out" data-aos-duration="1000" data-aos-easing="ease-in-out" class="service-title">
+                MY <span>SERVICES</span>
+            </div>
+
+            <div class="services-detail">
+                <div class="row">
+                    <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" data-aos-delay="100" class="col-lg-4 col-md-6">
+                        <div class="services-selection">
+                            <div class="services-icon">
+                                <i class="fa fa-cogs" aria-hidden="true"></i>
+                            </div>
+                            <div class="services-description">
+                                <p>Web Design</p>
+                                <p>Design and make new tamplates for clients. Try as much as possible to make it neat.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" data-aos-delay="200" class="col-lg-4 col-md-6">
+                        <div class="services-selection">
+                            <div class="services-icon">
+                                <i class="fa fa-database" aria-hidden="true"></i>
+                            </div>
+                            <div class="services-description">
+                                <p>Web Development</p>
+                                <p>Develop your own and make it your forever even when there's no one there to support you.Do Great and make the codes work out for all .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" data-aos-delay="300" class="col-lg-4 col-md-6">
+                        <div class="services-selection">
+                            <div class="services-icon">
+                                <i class="fa fa-address-card" aria-hidden="true"></i>
+                            </div>
+                            <div class="services-description">
+                                <p>Graphics Design</p>
+                                <p>Design something new and make it yours forever. Try as much as possible to make it yours.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-down" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" data-aos-delay="100" class="col-lg-4 col-md-6">
+                        <div class="services-selection">
+                            <div class="services-icon">
+                                <i class="fa fa-line-chart" aria-hidden="true"></i>
+                            </div>
+                            <div class="services-description">
+                                <p> Email Marketing</p>
+                                <p>Good marketing strategy makes you outstanding. Try as much as possible to make your clients happy.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-down" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" data-aos-delay="200" class="col-lg-4 col-md-6">
+                        <div class="services-selection">
+                            <div class="services-icon">
+                                <i class="fa fa-picture-o" aria-hidden="true"></i>
+                            </div>
+                            <div class="services-description">
+                                <p>Photography</p>
+                                <p>Design your own and make it your forever even when there's no one there to support you. Try as much as possible to bring out good graphics for all.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-down" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000" data-aos-delay="300" class="col-lg-4 col-md-6">
+                        <div class="services-selection">
+                            <div class="services-icon">
+                                <i class="fa fa-android" aria-hidden="true"></i>
+                            </div>
+                            <div class="services-description">
+                                <p> App Development</p>
+                                <p>Develop your ideas and make it a reality. Try as much as possible to make the codes work out for all .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- **** MY SERVICES SECTION ENDS ****** -->
+
+
+    <!-- **** MY SKILLS SECTION **** -->
+    <!-- **** PARALLAX SCROLL FOR SKILLS SECTION **** -->
+    <div class="parallax">
+        <section id="skills">
+            <div class="container mb-5">
+                <div class="skills">
+                    <div data-aos="zoom-out" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="400" class="skills-title">MY<span> SKILLS</span></div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <!-- First three skills-->
+                                    <div data-aos="flip-left" data-aos-duration="1500" data-aos-delay="200" class="col-md-12">
+                                        <l1>
+                                            <h6>FLUTTER</h6>
+                                            <h6>35%</h6><span class="bar"><span class="flutter"></span></span>
+                                        </l1>
+                                    </div>
+                                    <div data-aos="flip-left" data-aos-duration="1500" data-aos-delay="300" class="col-md-12">
+                                        <l1>
+                                            <h6>JAVASCRIPT</h6>
+                                            <h6>75%</h6><span class="bar"><span class="javascript"></span></span>
+
+                                        </l1>
+                                    </div>
+                                    <div data-aos="flip-left" data-aos-duration="1500" data-aos-delay="400" class="col-md-12">
+                                        <l1>
+                                            <h6>BOOTSTRAP</h6>
+                                            <h6>90%</h6><span class="bar"><span class="bootstrap"></span></span>
+                                        </l1>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-md-6">
+                                    <!-- Second three skills-->
+                                    <div data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500" class="col-md-12">
+                                        <l1>
+                                            <h6>KOTLIN</h6>
+                                            <h6>50%</h6><span class="bar"><span class="kotlin"></span></span>
+                                        </l1>
+                                    </div>
+                                    <div data-aos="flip-right" data-aos-duration="1000" data-aos-delay="600" class="col-md-12">
+                                        <l1>
+                                            <h6>JQUERY</h6>
+                                            <h6>50%</h6>
+                                            <span class="bar"><span class="jquery"></span></span>
+
+                                        </l1>
+                                    </div>
+                                    <div data-aos="flip-right" data-aos-duration="1000" data-aos-delay="700" class="col-md-12">
+                                        <l1>
+                                            <h6>PHP</h6>
+                                            <h6>70%</h6>
+                                            <span class="bar"><span class="php"></span></span>
+                                        </l1>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+    <!-- **** MY SKILLS SECTION ENDS **** -->
+
+
+    <!-- **** MY PORTFOLIO SECTION ****** -->
+    <section id="portfolio">
+        <div class="container gallery-block compact-gallery">
+            <div data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="100" class="service-title">
+                MY <span>PORTFOLIO</span>
+            </div>
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 d-flex justify-content-center mb-5">
+                    <div data-aos="fade-right" data-aos-duration="2500" data-aos-delay="300"> APP DEVELOPMENT</div> &nbsp; |
+                    <div data-aos="fade-up" data-aos-duration="2500" data-aos-delay="300" data-aos-anchor-placement="top-bottom"> WEB DESIGN</div> &nbsp; |
+                    <div data-aos="fade-left" data-aos-duration="2500" data-aos-delay="100"> PHOTOGRAPHY </div>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+            <!-- Grid row -->
+            <div class="gallery" id="gallery">
+
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+
+                <!-- **** OLD GALLERY STARTS ****
+                <div class="mb-3 pics animation all 3">
+                    <img class="img-fluid" src="/img/blockchain.jpg" alt="Card image cap">
+                </div>
+-->
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <!--
+                <div class="mb-3 pics animation all 3">
+                    <img class="img-fluid" src="/img/image6.jpg" alt="Card image cap">
+                </div>
+-->
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <!--
+                <div class="mb-3 pics animation all 3">
+                    <img class="img-fluid" src="/img/image5.jpg" alt="Card image cap">
+                </div>
+-->
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <!--
+                <div class="mb-3 pics animation all 1">
+                    <img class="img-fluid" src="/img/fav.jpg" alt="Card image cap">
+                </div>
+-->
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <!--
+                <div class="mb-3 pics animation all 2">
+                    <img class="img-fluid" src="/img/rotate.png" alt="Card image cap">
+                </div>
+-->
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <!--
+                <div class="mb-3 pics animation all 2">
+                    <img class="img-fluid" src="/img/image8.jpg" alt="Card image cap">
+                </div>
+-->
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <!--
+                <div class="mb-3 pics animation all 1">
+                    <img class="img-fluid" src="/img/image7.jpg" alt="Card image cap">
+                </div>
+
+                    **** OLD GALLERY ENDS ***-->
+
+                <!-- Grid column -->
+
+
+
+                <div class="row no-gutters">
+                    <div data-aos="flip-up" data-aos-delay="150" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="col-md-6 col-lg-4 item zoom-on-hover">
+                        <a class="lightbox" href="/img/rotate.png">
+                            <img class="img-fluid image" src="/img/rotate.png">
+                            <span class="description">
+                                <span class="description-heading">ROTATE</span>
+                            <span class="description-body">An Agriculature Platform to showcase service,client oriented.</span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div data-aos="flip-up" data-aos-delay="300" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="col-md-6 col-lg-4 item zoom-on-hover pics animation all 1">
+                        <a class="lightbox" href="/img/sign.png">
+                            <img class="img-fluid image" src="/img/sign.png">
+                            <span class="description">
+                                <span class="description-heading">SIGN UP FORM</span>
+                            <span class="description-body">A Full Materized &amp; validated Sign up form.</span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div data-aos="flip-up" data-aos-delay="450" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="col-md-6 col-lg-4 item zoom-on-hover pics animation all 2">
+                        <a class="lightbox" href="/img/restaurant.png">
+                            <img class="img-fluid image" src="/img/restaurant.png">
+                            <span class="description">
+                                <span class="description-heading">Browns|Restaurant</span>
+                            <span class="description-body">A Platform To Showcase Our favourite Dishes,make Orders for them and many more.</span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div data-aos="flip-up" data-aos-delay="150" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="col-md-6 col-lg-4 item zoom-on-hover pics animation all 2">
+                        <a class="lightbox" href="/img/001.png">
+                            <img class="img-fluid image" src="/img/001.png">
+                            <span class="description">
+                                <span class="description-heading">GNAAS_UG WEB</span>
+                            <span class="description-body">A Followership Platform GNAASUG.</span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div data-aos="flip-up" data-aos-delay="300" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="col-md-6 col-lg-4 item zoom-on-hover pics animation all 3">
+                        <a class="lightbox" href="/img/002.png">
+                            <img class="img-fluid image" src="/img/002.png">
+                            <span class="description">
+                                <span class="description-heading"></span>
+                            <span class="description-body"></span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div data-aos="flip-up" data-aos-delay="450" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="col-md-6 col-lg-4 item zoom-on-hover pics animation all 3">
+                        <a class="lightbox" href="/img/003.png">
+                            <img class="img-fluid image" src="/img/003.png">
+                            <span class="description">
+                                <span class="description-heading"></span>
+                            <span class="description-body"></span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div data-aos="flip-up" data-aos-delay="150" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="col-md-6 col-lg-4 item zoom-on-hover">
+                        <a class="lightbox" href="/img/portfolio.png">
+                            <img class="img-fluid image" src="/img/portfolio.png">
+                            <span class="description">
+                                <span class="description-heading"></span>
+                            <span class="description-body"></span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div data-aos="flip-up" data-aos-delay="300" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="col-md-6 col-lg-4 item zoom-on-hover">
+                        <a class="lightbox" href="/img/andriod.png">
+                            <img class="img-fluid image" src="/img/andriod.png">
+                            <span class="description">
+                                <span class="description-heading">Mobile App</span>
+                            <span class="description-body">My Simple Todo.</span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div data-aos="flip-down" data-aos-delay="450" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="col-md-6 col-lg-4 item zoom-on-hover">
+                        <a class="lightbox" href="/img/andriod2.jpg">
+                            <img class="img-fluid image" src="/img/andriod2.jpg">
+                            <span class="description">
+                                <span class="description-heading">Mobile Chat App</span>
+                            <span class="description-body">Chat with friends in your contact list, send document, images, videos, etc.</span>
+                            </span>
+                        </a>
+                    </div>
+
+
+                    <!-- Grid row -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- **** MY PORTFOLIO SECTION ENDS ****** -->
+
+
+    <!--COUNTER STARTS -->
+    <!-- A javascript counter for my projects, porjects finished , etc-->
+    <!--COUNTER ENDS -->
+
+
+    <!-- **** MY EXPERIENCE SECTION ****** -->
+    <section id="experience">
+        <div class="container mb-4 mt-4">
+            <div data-aos="zoom-out" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="100" class="experience-title">
+                MY <span>EXPERIENCE</span>
+            </div>
+            <div class="row">
+                <div data-aos="fade-down-right" data-aos-anchor-placement="bottom-bottom" data-aos-delay="100" data-aos-duration="1000" class="col-lg-6 col-md-6">
+                    <div class="experience-selection">
+                        <div class="experience-description">
+                            <p>Full-stack Developer</p>
+                            <p>BROWNLYNCODELABS.INC</p>
+                            <p>2018 - Present</p>
+                            <p>Full stack developers work, like back-end devs, on the server side of web programming, but they can also fluently speak the front-end languages that control how content looks on a site’s user-facing side.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div data-aos="fade-down-left" data-aos-anchor-placement="bottom-bottom" data-aos-delay="200" data-aos-duration="2000" class="col-lg-6 col-md-6">
+                    <div class="experience-selection">
+                        <div class="experience-description">
+                            <p>Graphics Designer</p>
+                            <p>TYPORAMA.inc</p>
+                            <p>Present</p>
+                            <p>Communicating to the technological world has been best done design. The role of the graphic designer in the communication process is that of encoder or interpreter of the message.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div data-aos="fade-up-right" data-aos-anchor-placement="bottom-bottom" data-aos-delay="200" data-aos-duration="2000" class="col-lg-6 col-md-6">
+                    <div class="experience-selection">
+                        <div class="experience-description">
+                            <p>Back-End Developer</p>
+                            <p>BrownlynCodelabs</p>
+                            <p>2017 - Present</p>
+                            <p>Building and maintaining the technology that powers the components which, together, enable the user-facing side of a website of my clients to exist is one thing I burn the midnight oil to achieve.This is a great joy established.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up-left" data-aos-anchor-placement="bottom-bottom" data-aos-delay="200" data-aos-duration="2000" class="col-lg-6 col-md-6">
+                    <div class="experience-selection">
+                        <div class="experience-description">
+                            <p>Front-End Developer</p>
+                            <p>ADL (Active Development Laboratory)</p>
+                            <p> 2016 - Present</p>
+                            <p>The front end of a website is the part that users interact with. Everything that you see when you’re navigating around the Internet, from fonts and colors to dropdown menus and sliders, is a combo of HTML, CSS, and JavaScript
+                                being controlled by your computer’s browser. I enjoy the looks of my clients when they have their finished works.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- **** MY EXPERIENCE SECTION ENDS****** -->
+
+
+    <!--Parallax for Testimonial-->
+    <div id="parallax">
+
+
+        <!--**** MY TESTIMONIAL SECTION *****-->
+        <section id="testimonial">
+
+            <div class="container">
+                <div data-aos="zoom-out" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="100" class="container text-center mb-5">
+                    <h2 class="testimonial-title">Client <span>Testimonials</span></h2>
+                </div>
+
+                <div class="container ">
+                    <div class="testiSlide">
+                        <div>
+                            <div class="card m-3">
+                                <div class="card-body p-3">
+                                    <i class="fa fa-quote-left"></i>
+                                    <p class="card-text text-center t-qot">My Experience working with Daniel has been very positive. I always receive quality service from him. I highly recommend this guy to everyone because I think he is one a of kind. .</p>
+                                    <div class="t-det">
+                                        <div class="row">
+                                            <div class="col-md-8 col-xs-8">
+                                                <h4 class="card-text">David Brown</h4>
+                                                <p class="card-text">Manager, Bootstrap.inc</p>
+                                            </div>
+
+                                            <div class="col-md-4 col-xs-4">
+                                                <img class="img-fluid rounded-circle float-right" src="img/t1.jpg" height="105px" width="105px" alt="image-testimonial">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="card m-3">
+                                <div class="card-body p-3">
+                                    <i class="fa fa-quote-left"></i>
+                                    <p class="card-text text-center t-qot">My Experience working with Daniel has been very positive. I always receive quality service from him. I highly recommend this guy to everyone because I think he is one a of kind. .</p>
+                                    <div class="t-det">
+                                        <div class="row">
+                                            <div class="col-md-8 col-xs-8">
+                                                <h4 class="card-text">Justice Abbam</h4>
+                                                <p class="card-text">CEO, Rotate</p>
+                                            </div>
+
+                                            <div class="col-md-4 col-xs-4">
+                                                <img class="img-fluid rounded-circle float-right" src="img/t2.jpg" height="105px" width="105px" alt="image-testimonial">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="card m-3">
+                                <div class="card-body p-3">
+                                    <i class="fa fa-quote-left"></i>
+                                    <p class="card-text text-center t-qot">My Experience working with Daniel has been very positive. I always receive quality service from him. I highly recommend this guy to everyone because I think he is one a of kind. .</p>
+                                    <div class="t-det">
+                                        <div class="row">
+                                            <div class="col-md-8 col-xs-8">
+                                                <h4 class="card-text">Enoch Teye</h4>
+                                                <p class="card-text">General Mg, Sofas.</p>
+                                            </div>
+
+                                            <div class="col-md-4 col-xs-4">
+                                                <img class="img-fluid rounded-circle float-right" src="img/t3.jpg" height="105px" width="105px" alt="image-testimonial">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="card m-3">
+                                <div class="card-body p-3">
+                                    <i class="fa fa-quote-left"></i>
+                                    <p class="card-text text-center t-qot">Working with Brown has got me to learn much as a developer. I highly recommend him to you. .</p>
+                                    <div class="t-det">
+                                        <div class="row">
+                                            <div class="col-md-8 col-xs-8">
+                                                <h4 class="card-text">Ernest Okai</h4>
+                                                <p class="card-text">Administrator, Fustero.inc</p>
+                                            </div>
+
+                                            <div class="col-md-4 col-xs-4">
+                                                <img class="img-fluid rounded-circle float-right" src="img/t1.jpg" height="105px" width="105px" alt="image-testimonial">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="card m-3">
+                                <div class="card-body p-3">
+                                    <i class="fa fa-quote-left"></i>
+                                    <p class="card-text text-center t-qot">My Experience working with Daniel has been very positive. I always receive quality service from him. He's good and i bet you give him a try .</p>
+                                    <div class="t-det">
+                                        <div class="row">
+                                            <div class="col-md-8 col-xs-8">
+                                                <h4 class="card-text">Abena Dorcas</h4>
+                                                <p class="card-text">Secetary, Brownlyncodelabs.inc</p>
+                                            </div>
+
+                                            <div class="col-md-4 col-xs-4">
+                                                <img class="img-fluid rounded-circle float-right" src="img/t4.jpg" height="105px" width="105px" alt="image-testimonial">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!--**** MY TESTIMONIAL SECTION ENDS *****-->
+
+
+    <!--**** MY CONTACT SECTION *****--->
+    <section id="contact">
+        <div class="contact-area section-padding">
+            <div class="container">
+                <div data-aos="zoom-out" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="100" class="contact-title">
+                    My <span>Contact</span>
+                </div>
+                <div class="row">
+                    <div data-aos="zoom-in" data-aos-delay="1000" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 box-contact-form">
+
+                        <form id="contact-form" method="post" action="contact.php" novalidate="true">
+
+                            <div class="messages"></div>
+                            <!--you can change the message in contact.php file -->
+
+                            <div class="controls">
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your full name *" required="required" data-error="Fullname is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email *" required="required" data-error="Valid email is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea id="form_message" name="message" class="form-control" placeholder="Your Message *" rows="10" required="required" data-error="Leave a message for me"></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button class="btn btn-send" value="submit" name="submit">Send message</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1">
+                        <div class="right-contact">
+                            <div data-aos="fade-left" data-aos-delay="2500" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom" class="right-contact-text">
+                                <i class="fa fa-map-marker"></i>
+                                <h2>Address / Street</h2>
+                                <p>No 123, Legon Lane, Accra</p>
+                                <!--edit here-->
+                            </div>
+                            <div data-aos="fade-left" data-aos-delay="2500" data-aos-duration="2000" data-aos-anchor-placement="bottom-bottom" class="right-contact-text">
+                                <i class="fa fa-phone"></i>
+                                <h2>Contact Number</h2>
+                                <p>+233 - 552 - 366834</p>
+                                <!--edit here-->
+                            </div>
+                            <div data-aos="fade-left" data-aos-delay="2500" data-aos-duration="3000" data-aos-anchor-placement="bottom-bottom" class="right-contact-text">
+                                <i class="fa fa-globe"></i>
+                                <h2>Website Address</h2>
+                                <p>www.danielbrown.com</p>
+                                <!--edit here-->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--**** MY CONTACT SECTION ENDS*****--->
+
+
+    <!--**** MY FOOTER SECTION *****--->
+    <section id="footer">
+        <div class="container fixed">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 logo">
+                    <div class="logo">
+                        <a href="index.html"><img src="img/logo_02.png"> </a>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="cpt text-center text-light">
+                        <p>© Copyright <span>Daniel Brown</span>. All rights reserved.</p>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <div class="social-icon">
+                        <ul>
+                            <!--facebook-->
+                            <li><a href="https://www.facebook.com/profile.php?id=100002940318705/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                            <!--Twiiter-->
+                            <li><a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <!--Instagram-->
+                            <li><a href="https://www.instagram.com/daniel_brown2977/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                            <!--Github-->
+                            <li><a href="https://github.com/Brownlyn-Codelabs" target="_blank"><i class="fab fa-github"></i></a></li>
+                            <!--Instagram-->
+                            <li><a href="https://www.instagram.com/daniel_brown2977/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--**** MY FOOTER SECTION ENDS *****--->
+
+
+    <!-- MY BACK TO TOP BUTTON-->
+    <div id="btt">
+        <a href="#">
+            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+        </a>
+    </div>
+    <!-- MY BACK TO TOP BUTTON ENDS-->
+
+
+
+   
+
+
+    <!-- Bootstrap core JavaScript
+    ==================================================
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!--Updated version of Font Aweasome-->
+    <script src="https://kit.fontawesome.com/a6c2049d35.js" crossorigin="anonymous"></script>
+
+    <!-- Google jquery Cdn-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+    <!--Extra Dependencies js-->
+
+
+    <!-- Testimonial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js'></script>
+    <script src="/js/function.js">
+    </script>
+    <!-- Testimonial ends -->
+
+
+    <!--Dependency for typed js-->
+    <script type="text/javascript" src="js/typed.js"></script>
+
+    <script type="text/javascript">
+        var typed = new Typed(".type", {
+            strings: ["Developer", "UI/UX Designer", ""],
+            typeSpeed: 50,
+            backSpeed: 20,
+            loop: true
+        });
+    </script>
+
+
+    <!-- ***** SCROLL SPY (Focus on each Nav)-->
+    <script>
+        $('body').scrollspy({
+            target: '#navbarSupportedContent',
+            offset: 38
+        });
+    </script>
+
+
+    <!-- *** SMOOTH SCROLL ****-->
+    <script src="js/smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+
+
+    <!-- **** CHANGING OF NAVBAR PROPERTITIES ON SCROLL **--->
+    <!-- **** COLOR, HEIGHT, TEXT-COLOR, SIZE .ETC  **--->
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                var scroll = $(window).scrollTop();
+                if (scroll > 100) {
+                    $("nav").css("background", "#f8f8f8"); /*Changing nav-bg color to ash color*/
+                    $(".nav-link").css("color", "#000"); /*Changing nav-links color to black*/
+                    $("nav").css("height", "80px"); /*Changing nav height to 100px*/
+                    $("nav").css("color", "#000"); /*Changing nav color to black*/
+                    $("nav").css("transition", "700ms ease"); /*Transition for nav color*/
+                    $("#daniel").css("color", "#000"); /*Changing daniel color to black on scroll*/
+                    $("nav").css("box-shadow", "0 15px 13px rgba(000, 000, 000,0.13"); /*giving a shadow*/
+                    $("navbar-brand img").css("margin-top", "50px");
+
+                } else {
+                    $("nav").css("background", "transparent");
+                    $("#daniel").css("color", "#fff");
+                    $(".nav-link").css("color", "#fff"); /*Changing nav-links color to black*/
+                    $("nav").css("height", "90px");
+                    $("nav").css("box-shadow", "0 0px 0px rgba(000, 000, 000,0.15");
+                }
+            })
+        })
+    </script>
+
+
+
+    <!-- ANIMATION FOR BACK TO TOP BUTTON START-->
+    <script>
+        $(document).ready(function() {
+
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 40) {
+                    $('#btt').fadeIn();
+                } else {
+                    $('#btt').fadeOut();
+                }
+            });
+
+            $("#btt").onclick(function() {
+                $('html ,body').animate({
+                    scrollTop: 0
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- ANIMATION FOR BACK TO TOP BUTTON END-->
+
+
+
+    <!--Compact Gallery Starts-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+
+    <script>
+        baguetteBox.run('.compact-gallery', {
+            animation: 'slideIn'
+        });
+    </script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.js" async></script>
+
+    <!--Compact Gallery Ends-->
+
+
+    <!-- ••• Animate On Scrool Library Starts ••••-->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- ••• Animate On Scrool Library Ends ••••-->
+
+ <!-- PRELOADER STARTS -->
+
+ <script >
+    // $(document).ready(function(){
+        // 	$('div#loading').removeAttr('id');
+    // });
+    var preloader = document.getElementById("loading");
+    // window.addEventListener('load', function(){
+    // 	preloader.style.display = 'none';
+    // 	})
+
+    function myFunction(){
+        preloader.style.display = 'none';
+        preloader.delay(5000).fadeout('slow');
+    };
+</script>
+
+
+<!-- PRELOADER ENDS -->
+
+
+
+
+</body>
+
+</html>
