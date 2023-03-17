@@ -581,7 +581,7 @@ li {
         width: 0%;
     }
     100% {
-        width: 35%;
+        width: 45%;
     }
 }
 
@@ -590,7 +590,7 @@ li {
         width: 0%;
     }
     100% {
-        width: 75%;
+        width: 85%;
     }
 }
 
@@ -627,6 +627,24 @@ li {
     }
     100% {
         width: 70%;
+    }
+}
+
+@keyframes laravel {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes python {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 50%;
     }
 }
 
